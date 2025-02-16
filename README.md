@@ -1,3 +1,12 @@
+## 免责声明
+
+本项目使用了 [7-Zip](https://www.7-zip.org/) 作为解压工具。  
+7-Zip 是 Igor Pavlov 开发的自由软件，遵循 [GNU LGPL](https://www.gnu.org/licenses/lgpl.html) 许可协议（部分代码遵循 BSD 许可协议）。  
+7-Zip 的官方网站为：[https://www.7-zip.org/](https://www.7-zip.org/)。
+
+本项目未对 7-Zip 进行修改，仅用于解压缩功能。7-Zip 的版权归原作者所有。
+
+
 # Code Portable Updater - VS Code Portable 自动更新程序
 
 *A simple auto-updater for VS Code Portable*
