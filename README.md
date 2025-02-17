@@ -7,7 +7,7 @@
 本项目未对 7-Zip 进行修改，仅用于解压缩功能。7-Zip 的版权归原作者所有。
 
 
-# Code Portable Updater - VS Code Portable 自动更新程序
+# Code Portable Utils - VS Code Portable 自动更新程序
 
 *A simple auto-updater for VS Code Portable*
 
