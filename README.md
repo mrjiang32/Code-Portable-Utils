@@ -62,6 +62,9 @@ Use `build_and_clean.cmd` to compile the executable:
 build_and_clean.cmd
 ```
 
+注意python、pip和pyupdate要在PATH中
+
+
 📌 打包完成后生成 `pyupdate.exe`，无需 Python 环境即可使用！  
 
 Once built, `pyupdate.exe` is created and can be used without a Python environment!
