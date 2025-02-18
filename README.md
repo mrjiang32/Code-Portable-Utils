@@ -89,16 +89,15 @@ The program will automatically check for and update VS Code.
 
 ```
 CodePortable
-|- Entry.exe           <- 启动入口 (Entry script)
 |- PyUpdate.exe        <- Python 版更新器 (Python-based updater)
-|- LegacyUpdate.exe    <- 备用批处理更新器 (Fallback batch script updater)
 |- build_and_clean.cmd <- 生成并清理文件 (Build and clean script)
-|- App <- [dir]        <- VS Code 便携版目录 (VS Code Portable directory)
+|- app                 <- VS Code 便携版目录 (VS Code Portable directory)
    |- Code.exe
-   |- bin/code-tunnel.exe
-   |- data <- [dir]    <- 便携模式数据存储 (Portable mode data)
-|- Updates <- [dir]    <- 存放 `curl` 和 `7z` (Stores `curl` & `7z`)
-   |- curl.exe
+   |- bin
+      |- code-tunnel.exe
+      |- code(.sh)          
+   |- data             <- 便携模式数据存储 (Portable mode data)
+|- Updates             <- 存放 `7z` (Stores `7z`)
    |- 7z.exe
    |- 7z.dll
    |- 其他依赖... (Other dependencies...)
