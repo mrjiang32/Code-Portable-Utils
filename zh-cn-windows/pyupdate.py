@@ -1,5 +1,9 @@
 
 import datetime
+print("""
+mrjiang32.xyz Copyright (C) 2025 awamrjiang32
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it under certain conditions;""")
 print("CodePortable-Updater v1.0.1\n简称CPU(bushi\n\n提醒：(CPU)虽然可以更新VSCode，但你需要手动更新(CPU)哦！")
 print(f"\n当前时间: GMT {datetime.datetime.now(datetime.UTC)}\n")
 
